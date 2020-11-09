@@ -22,6 +22,14 @@ Estudie en el tutorial "Fundamentos de Informática" todo el material correspond
 [Funciones](http://www.minidosis.org/#/temas/Cpp.Funciones)
 Realice todos los ejercicios propuestos en ese capítulo.
 
+Al realizar los siguientes ejercicios haga que cada uno de sus programas conste de 3 ficheros:
+* Un fichero `mi_programa.cc` (programa principal) que contendrá la función `main` e incluirá el fichero de cabecera `funciones.h`
+* El fichero `funciones.h` que contendrá las declaraciones de las diferentes funciones que se utilizan en el
+  programa principal.
+* El fichero `funciones.cc` que contendrá el código (definiciones) de las funciones declaradas en el fichero
+  de cabecera.
+Modifique los nombres de los ficheros que aquí se proponen para adaptarlos al ejercicio en cuestión.
+
 ### Ejercicios 
 1. Escriba un programa `primes.cc` que solicite al usuario un número e imprima en pantalla todos los
 números primos menores que el introducido por el usuario
