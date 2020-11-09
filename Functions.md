@@ -45,6 +45,22 @@ Realice un programa que inicialize un vector de `N` componentes cada una de las 
 Haga que el programa imprima en pantalla las `N` cadenas del vector, indicando para cada una de ellas si es
 palíndroma o no.
 
+3.- Diseñe una función que calcule el factorial de un número que se le pase como parámetro.
+La función exponencial, e<sup>x</sup> se puede calcular mediante su 
+![desarrollo en serie de Taylor](https://raw.githubusercontent.com/fsande/-IB-P07-Functions/master/serie.png "Text")
+Cuantos más términos tome de la serie, mayor será la precisión de la aproximación a la función.
+
+Diseñe una función 
+```
+double my_exp(double exponent, unsigned num_terms);
+```
+que calcule el valor de e<sup>x</sup> para un valor de x que se le pase como parámetro (`exponent`).
+El segundo parámetro de la función indica el número de términos del desarrollo en serie de Taylor a utilizar
+para el cálculo.
+
+Compare los valores que obtiene en su función para diferentes valores del parámetro y compárelos con los que
+obtiene al usar la función `exp` definida en el fichero de cabecera `cmath`.
+
 
 
 
