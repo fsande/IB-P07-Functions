@@ -25,9 +25,10 @@ Realice todos los ejercicios propuestos en ese capítulo.
 Al realizar los siguientes ejercicios haga que cada uno de sus programas conste de 3 ficheros:
 * Un fichero `mi_programa.cc` (programa principal) que contendrá la función `main` e incluirá el fichero de cabecera `funciones.h`
 * El fichero `funciones.h` que contendrá las declaraciones de las diferentes funciones que se utilizan en el
-  programa principal.
+  programa principal para resolver el ejercicio en cuestión.
 * El fichero `funciones.cc` que contendrá el código (definiciones) de las funciones declaradas en el fichero
   de cabecera.
+
 Modifique los nombres de los ficheros que aquí se proponen para adaptarlos al ejercicio en cuestión.
 
 ### Ejercicios 
@@ -37,7 +38,7 @@ números primos menores que el introducido por el usuario
 Introduzca un número: 100
 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
 ```
-El programa ha de contener una función booleana `prime` que tome como parámetro un número natural y devuelva
+El programa ha de contener una función booleana `IsPrime` que tome como parámetro un número natural y devuelva
 `true` o `false` dependiendo de si el número es primo o no.
 
 2. Se dice que una palabra es [palíndroma](https://es.wikipedia.org/wiki/Pal%C3%ADndromo) 
@@ -49,7 +50,7 @@ bool IsPalindrome(std::string my_string);
 ```
 que determine si la cadena que se le pasa como parámetro es palíndroma o no.
 Realice un programa que inicialize un vector de `N` componentes cada una de las cuales sea una cadena
-(std::string).
+(`std::string`).
 Haga que el programa imprima en pantalla las `N` cadenas del vector, indicando para cada una de ellas si es
 palíndroma o no.
 
@@ -79,15 +80,15 @@ Si el mes no está en el rango [1, 12] la función debe devolver -1 como resulta
 Suponga que febrero tiene siempre 28 días.
 ¿Qué cambios habría que hacer a la función para tratar adecuadamente los años bisiestos?.
 
-5.- Un número palíndromo es esquél que permanece igual cuando se invierten sus dígitos. 
+5.- Un número palíndromo es aquél que permanece igual cuando se invierten sus dígitos. 
 Por ejemplo 121 es un número palíndromo mientras que 112 no lo es.
 Escriba un programa en C++ que solicite al usuario los límites inferior y superior de un intervalo (`[N, M]`)
-y encuentre el número palíndromo más grande y el más pequeño que sean productos de números detro de ese rango.
+y encuentre el número palíndromo más grande y el más pequeño que sean productos de números dentro de ese rango.
 
 El programa debería devolver los palíndromos más grandes y más pequeños, junto con los factores de cada uno dentro del rango. 
 Si el palíndromo más grande o más pequeño tiene más de un par de factores dentro del rango, entonces devuelve todos los pares.
 
-Ejemplo 1
+* Ejemplo 1
 Dado el intervalo [1, 9] 
 
 Y dada la lista de todos los productos posibles dentro de este rango: 
@@ -98,7 +99,7 @@ Sus factores son (1, 1).
 El producto de palíndromo más grande es 9. 
 Sus factores son (1, 9) y (3, 3).
 
-Ejemplo 2
+* Ejemplo 2
 Dado el rango [10, 99] 
 El palíndromo más pequeño es 121. 
 Sus factores son (11, 11). 
