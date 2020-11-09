@@ -65,7 +65,13 @@ Su función debería utilizar otra función que calcule el factorial de un núme
 Compare los valores que obtiene en su función para diferentes valores del parámetro y compárelos con los que
 obtiene al usar la función `exp` definida en el fichero de cabecera `cmath`.
 
-4.- Un número palíndromo es esquél que permanece igual cuando se invierten sus dígitos. 
+4.- Escriba una función `DiasMes` que reciba como parámetro un número entero que indique el mes (número de 1 a
+12) y devuelva el número de días que tiene ese mes.
+Si el mes no está en el rango [1, 12] la función debe devolver -1 como resultado.
+Suponga que febrero tiene siempre 28 días.
+¿Qué cambios habría que hacer a la función para tratar adecuadamente los años bisiestos?.
+
+5.- Un número palíndromo es esquél que permanece igual cuando se invierten sus dígitos. 
 Por ejemplo 121 es un número palíndromo mientras que 112 no lo es.
 Escriba un programa en C++ que solicite al usuario los límites inferior y superior de un intervalo (`[N, M]`)
 y encuentre el número palíndromo más grande y el más pequeño que sean productos de números detro de ese rango.
