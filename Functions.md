@@ -46,8 +46,11 @@ Haga que el programa imprima en pantalla las `N` cadenas del vector, indicando p
 palíndroma o no.
 
 3.- Diseñe una función que calcule el factorial de un número que se le pase como parámetro.
-La función exponencial, e<sup>x</sup> se puede calcular mediante su 
+La función exponencial, e<sup>x</sup> se puede calcular mediante su desarrollo en 
+[serie de Taylor](https://es.symbolab.com/solver/taylor-maclaurin-series-calculator/taylor%20e%5E%7Bx%7D):
+
 ![desarrollo en serie de Taylor](https://raw.githubusercontent.com/fsande/-IB-P07-Functions/master/serie.png "Text")
+
 Cuantos más términos tome de la serie, mayor será la precisión de la aproximación a la función.
 
 Diseñe una función 
