@@ -109,7 +109,4 @@ Sus factores son (91, 99).
 ### Referencias
 * [Tutorial Fundamentos de Informática](http://www.minidosis.org/#/cursos/FI)
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
-* [La función std::rand](https://en.cppreference.com/w/cpp/numeric/random/rand)
-* [La conjetura de Collatz](https://es.wikipedia.org/wiki/Conjetura_de_Collatz) 
-* [La clase std::string](http://www.cplusplus.com/reference/string/string/)
-
+* [La función exp](http://www.cplusplus.com/reference/cmath/exp/
